@@ -1,15 +1,60 @@
 body{
-    background-color: aqua;
+    background-color: rgb(158, 158, 158);
 }
 .title{
     text-align: center;
     font-size: 64px;
-    background-color: black;
-    color: lightblue;
+    background-color: rgb(85, 85, 85);
+    color: rgb(49, 149, 182);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px;
+    margin: -10px;
 }
-.Homebutton{
-    background-color: black;
+.Homebutton button{
+    background-color: rgb(85, 85, 85);
     color: lightblue;
     font-size: 32px;
+    margin-top: 30px;
+    box-shadow: 5px 5px rgb(49, 149, 182) ;
+    margin-bottom: 10px;
+}
+.recipes{
+    text-align: center;
+    margin: 0px auto;
+    padding: 25px;
+    color: rgb(49, 149, 182);
+}
+.lasagna{
+    display: inline-block;
+    padding: 25px; 
+    font-size: 32px; 
+    border: 2px solid gray; 
+    background-color: rgb(85, 85, 85);
+    margin: 0px 25px;
+}
+.hamburger{
+    display: inline-block;
+    padding: 25px;
+    font-size: 32px;  
+    border: 2px solid gray;
+    background-color: rgb(85, 85, 85); 
+    margin: 0px 25px;
+}
+.pizza{
+    display: inline-block;
+    padding: 25px;
+    font-size: 32px;
+    border: 2px solid gray;
+    background-color: rgb(85, 85, 85); 
+    margin: 0px 25px;
+}
+.hmpg-pic{
+    display: block;
+}
+.foodbutton{
+    margin: 10px auto;
+    padding: 0px 25px;
+    font-size: 32px;
+    background-color: rgb(158, 158, 158);
+    color: black;
 }
